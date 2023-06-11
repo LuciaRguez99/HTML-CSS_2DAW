@@ -1,0 +1,100 @@
+body {
+    background-color: lightgreen;
+}
+
+#contenidoTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo {
+    background-color: lightsalmon;
+    border: 3px solid rgb(250, 64, 1);
+    border-radius: 50%;
+    text-align: center;
+    width: 1000px;
+}
+
+h1 {
+    background-color: lightsalmon;
+    border: 3px solid rgb(250, 64, 1);
+    border-radius: 50%;
+    text-align: center;
+    color: darkgreen;
+}
+
+#parrafoIndice {
+    border: green 5px dashed;
+    background-color: rgb(194, 211, 194);
+    padding: 5px;
+}
+
+#negrita {
+    font-weight: bolder;
+}
+
+#seccionGandhi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#mahatmaGandhi {
+    padding: 20px;
+    border: green 5px dotted;
+    width: 70%;
+    position: relative;
+}
+
+#gandhiImagen {
+    width: 100px;
+    height: 130px;
+    float: left;
+}
+
+#indiaImagen {
+    display: flex;
+    float: right;
+}
+
+#seccionLuchadores {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.divLuchadores {
+    width: 30%;
+    vertical-align: top;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: green;
+    display: flex;
+    align-items: center;
+}
+
+.textoLuchadores {
+    flex-basis: 70%;
+    font-weight: bold;
+}
+
+.luchadoresImagen {
+    border: black 2px solid;
+    flex-basis: 30%;
+    max-width: 100%;
+
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+#textoTeresa {
+    color: white;
+}

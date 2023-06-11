@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url(https://www.colores.org.es/imagenes_colores/crema.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#color {
+    background-color: lightcoral;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 14px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #111;
+}
+
+.dropdown-submenu:hover .dropdown-content-submenu {
+    display: block;
+}
+
+.dropdown-content-submenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content-submenu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content-submenu a:hover {
+    background-color: #ddd;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+}

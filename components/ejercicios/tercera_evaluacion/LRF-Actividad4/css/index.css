@@ -1,0 +1,84 @@
+body {
+    background-color: lightgray;
+    padding: 5px;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    padding: 2px 5px;
+    font-weight: bold;
+}
+
+ul li:first-child {
+    background-color: yellow;
+}
+
+ul li:nth-child(3) {
+    color: lightgreen;
+}
+
+hr {
+    border-top: 2px solid red;
+    margin-bottom: 5px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+article {
+    background-color: gray;
+    padding: 5px 20px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+h2::first-letter {
+    font-size: 50px;
+    color: purple;
+}
+
+#primer-parrafo::first-line {
+    background-color: darkred;
+}
+
+.fecha:hover, .comentarios:hover {
+    background-color: antiquewhite;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.contenedor-comentarios {
+    text-align: right;
+}
+
+p:lang(de){
+    background-color: yellow;
+    }
+
+#div2 {
+    list-style: none;
+}
+
+ol {
+    list-style: none;
+    font-weight: bolder;
+}
+
+ol li {
+    white-space: nowrap;
+    padding: 5px;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    color: rgb(230, 130, 1);
+}

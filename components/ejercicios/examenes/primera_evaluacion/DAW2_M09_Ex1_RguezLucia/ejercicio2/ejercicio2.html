@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 2 del examen</title>
+    <link rel="icon" href="../../../../../../img/favicon.avif">
+    <meta name="author" content="Lucia Rguez">
+    <link rel="stylesheet" type="text/css" href="css/ejercicio2.css">
+</head>
+
+<body>
+    <h1>Registro</h1>
+    <form>
+        <div>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" maxlength="50" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="correo">Correo:</label>
+            <input type="email" name="correo" id="correo" minlength="50" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="telefono">Telefono:</label>
+            <input type="tel" name="telefono" id="telefono">
+        </div>
+
+        <br>
+
+        <div>
+            <laber for="fechaNac">Fecha Nacimiento:</laber>
+            <input type="date" name="fechaNac" id="fechaNac" max="2022-12-13">
+        </div>
+
+        <br>
+
+        <div>
+            <label style="display: inline-block;"> Mayor de edad?: </label>
+            <input type="radio" name="mayor" id="mayor-si">
+            <label for="mayor-si">SI</label>
+
+            <input type="radio" name="mayor" id="mayor-no">
+            <label for="mayor-no">NO</label>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="seleccion">Pais:</label>
+            <select name="pais" id="pais">
+                <option value="espanha">España</option>
+                <option value="francia" selected>Francia</option>
+                <option value="italia" disabled>Italia</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="cuentame">Cuéntame:</label><br>
+            <textarea name="cuentame" id="cuentame" cols="70" rows="7" placeholder="Escribe aqui"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="checkbox" name="informacion" id="informacion">
+            <label for="info">Declaro haber leido y aceptar las condiciones generakes del programa y la normativa sobre
+                protección de datos</label>
+        </div>
+
+        <br>
+
+        <div id="botonEnviar">
+            <input type="button" id="boton" value="enviar">
+        </div>
+
+    </form>
+</body>
+
+</html>

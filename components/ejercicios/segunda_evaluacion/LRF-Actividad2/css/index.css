@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    background-image: url(https://mercadodesanfernando.es/wp-content/uploads/2021/10/Diferencias-entre-frutas-y-verduras.jpg);
+}
+
+h1 {
+    background-color: white;
+}
+
+div {
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: red;
+    border: 3px solid #000;
+}
+
+article {
+    border: 3px solid #000;
+}
+
+footer {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: animationColors;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+@keyframes animationColors {
+    0% {
+        background-color: purple;
+    }
+
+    25% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: orange;
+    }
+
+    75% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: green;
+    }
+}

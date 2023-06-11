@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    margin: 0 auto;
+}
+
+#cabecera {
+    background-color: rgb(51, 50, 50);
+    color: white;
+}
+
+#ciclos {
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.cursos {
+    text-align: center;
+    background-color: lightpink;
+}
+
+.asignaturas {
+    background-color: antiquewhite;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#listaLetra {
+    list-style-type: upper-latin;
+}
+
+#listaRomana {
+    list-style-type: lower-roman;
+}
+
+#listaCirculo {
+    list-style-type: circle;
+}

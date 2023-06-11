@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url(https://www.arteescuela.com/wp-content/uploads/2022/06/ACUARELA-PAISAJE-PALMERAS-04-opt.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+article {
+    margin-bottom: 150px;
+}
+
+article:nth-child(2) {
+    margin-top: 100px;
+}
+
+.circulo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    animation: moveSphere 10s linear infinite;
+}
+
+@keyframes moveSphere {
+    0% {
+        left: -50px;
+    }
+
+    100% {
+        left: calc(100vw - 120px);
+    }
+}
+
+.cuadrado {
+    width: 70px;
+    height: 70px;
+    background-color: gray;
+    transition: transform 1s, width 1s;
+    transform-origin: top left;
+}
+
+.cuadrado.rectangulo:hover {
+    width: 210px;
+    transition-delay: 1s;
+}
+
+.cuadrado.verde {
+    background-color: green;
+}
+
+.cuadrado.verde:hover {
+    transform: scale(5);
+}
+
+footer {
+    text-align: center;
+    background-color: red;
+    position: relative;
+    animation-name: animationColors;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+@keyframes animationColors {
+    0% {
+        background-color: purple;
+    }
+
+    25% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: orange;
+    }
+
+    75% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: green;
+    }
+}

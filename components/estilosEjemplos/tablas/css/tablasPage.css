@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url(https://www.colores.org.es/imagenes_colores/crema.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container>div:not(:last-child) {
+    margin-bottom: 20px;
+    /* Espacio entre los divs */
+}
+
+.tabla-basica {
+    border-collapse: collapse;
+}
+
+.tabla-basica th,
+.tabla-basica td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla-alternativa {
+    border-collapse: collapse;
+}
+
+.tabla-alternativa th {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px;
+}
+
+.tabla-alternativa td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.tabla-resaltada {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.tabla-resaltada th,
+.tabla-resaltada td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla-resaltada tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+  

@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+
+#popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../img/advertenica.jpg');
+    width: 40%;
+    height: 40%;
+}
+
+#popup-content img {
+    width: 100%;
+    height: auto;
+}
+
+.popup-text {
+    text-align: center;
+    margin-top: 13%;
+}
+
+.popup-text p {
+    margin-bottom: 10px;
+}
+
+#custom-button {
+    border-radius: 10px;
+    background-color: yellow;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid darkgoldenrod;
+    text-decoration: none;
+}
+
+#custom-button:hover {
+    background-color: darkgoldenrod;
+    cursor: pointer;
+}

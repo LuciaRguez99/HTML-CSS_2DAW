@@ -1,0 +1,17 @@
+body {
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#botonEnviar {
+    text-align: center;
+}
+
+#boton {
+    background-color: aliceblue;
+}

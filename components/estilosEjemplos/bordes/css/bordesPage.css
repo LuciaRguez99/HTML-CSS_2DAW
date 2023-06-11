@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url(https://www.colores.org.es/imagenes_colores/crema.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container > div:not(:last-child) {
+    margin-bottom: 20px; /* Espacio entre los divs */
+}
+
+#bordeSolido {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+#bordePunteado {
+    border: 2px dotted black;
+    width: 100px;
+    height: 100px;
+}
+
+#bordeDiscontinuo {
+    border: 2px dashed black;
+    width: 100px;
+    height: 100px;
+}
+
+#bordeDoble {
+    border: 4px double black;
+    width: 100px;
+    height: 100px;
+}
+
+#bordeRelieve {
+    border: 2px ridge black;
+    width: 100px;
+    height: 100px;
+}
+
+#bordeHundido {
+    border: 2px groove black;
+    width: 100px;
+    height: 100px;
+}
+
+#borde3D {
+    border: 2px outset black;
+    width: 100px;
+    height: 100px;
+}
+
+#bordeNo {
+    border: none;
+    width: 100px;
+    height: 100px;
+}
