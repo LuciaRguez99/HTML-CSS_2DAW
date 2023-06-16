@@ -12,7 +12,7 @@ Este proyecto ha sido creado para poder agrupar todos lo ejercicios y exámenes 
 
 1. Clona este repositorio: `git clone https://github.com/LuciaRguez99/HTML-CSS_2DAW.git`
 2. Navega al directorio del proyecto: `cd tu-proyecto`
-3. Abre el archivo `index.html` en tu navegador.
+3. Abre el archivo `advertencia.html` en tu navegador.
 
 ## Uso
 
