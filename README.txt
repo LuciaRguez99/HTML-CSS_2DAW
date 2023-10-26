@@ -1,3 +1,6 @@
+Se puede tener una vista de esta página web visitando esta web:
+    https://luciarguez99.github.io/HTML-CSS_2DAW/
+
 Este es un proyecto creado de forma rápida para agrupar:
     En un primer grupo:
         Todas las actividades de la primera evaluación
